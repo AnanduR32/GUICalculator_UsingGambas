@@ -1,0 +1,76 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,24,32)
+  Text = ("Calculator")
+  Resizable = False
+  { ADD Button
+    MoveScaled(18,11,4,4)
+    Text = ("+")
+  }
+  { Result TextBox
+    MoveScaled(2,1,20,9)
+    Enabled = False
+    ReadOnly = True
+  }
+  { MUL Button
+    MoveScaled(18,21,4,4)
+    Text = ("*")
+  }
+  { SUB Button
+    MoveScaled(18,16,4,4)
+    Text = ("-")
+  }
+  { REM Button
+    MoveScaled(18,26,4,4)
+    Text = ("%")
+  }
+  { ONE Button
+    MoveScaled(2,21,4,4)
+    Text = ("1")
+  }
+  { EIGHT Button
+    MoveScaled(7,11,4,4)
+    Text = ("8")
+  }
+  { SEVEN Button
+    MoveScaled(2,11,4,4)
+    Text = ("7")
+  }
+  { SIX Button
+    MoveScaled(12,16,4,4)
+    Text = ("6")
+  }
+  { FIVE Button
+    MoveScaled(7,16,4,4)
+    Text = ("5")
+  }
+  { FOUR Button
+    MoveScaled(2,16,4,4)
+    Text = ("4")
+  }
+  { NINE Button
+    MoveScaled(12,11,4,4)
+    Text = ("9")
+  }
+  { THREE Button
+    MoveScaled(12,21,4,4)
+    Text = ("3")
+  }
+  { TWO Button
+    MoveScaled(7,21,4,4)
+    Text = ("2")
+  }
+  { EQL Button
+    MoveScaled(12,26,4,4)
+    Text = ("=")
+  }
+  { PRD Button
+    MoveScaled(2,26,4,4)
+    Text = (".")
+  }
+  { ZERO Button
+    MoveScaled(7,26,4,4)
+    Text = ("0")
+  }
+}

@@ -1,0 +1,90 @@
+' Gambas class file
+
+Private a As Single
+Private b As Single
+Private c As Single
+
+
+Public Sub ONE_Click()
+  Result.Text = Result.Text & "1" 
+End
+
+Public Sub TWO_Click()
+  Result.Text = Result.Text & "2" 
+End
+
+Public Sub THREE_Click()
+  Result.Text = Result.Text & "3" 
+End
+
+Public Sub FOUR_Click()
+  Result.Text = Result.Text & "4" 
+End
+
+Public Sub FIVE_Click()
+  Result.Text = Result.Text & "5" 
+End
+
+Public Sub SIX_Click()
+  Result.Text = Result.Text & "6" 
+End
+
+Public Sub SEVEN_Click()
+  Result.Text = Result.Text & "7" 
+End
+
+Public Sub EIGHT_Click()
+  Result.Text = Result.Text & "8" 
+End
+
+Public Sub NINE_Click()
+  Result.Text = Result.Text & "9" 
+End
+
+Public Sub REM_Click()
+  c = 4
+  a = Val(Result.Text)
+  Result.Text = ""
+End
+
+Public Sub SUB_Click()
+  c = 2
+  a = Val(Result.Text)
+  Result.Text = ""
+End
+
+Public Sub ADD_Click()
+  c = 1
+  a = Val(Result.Text)
+  Result.Text = ""
+End
+
+Public Sub MUL_Click()
+  Result.Text = Result.Text & "*" 
+  c = 3
+  a = Val(Result.Text)
+  Result.Text = ""
+End
+
+Public Sub PRD_Click()
+  Result.Text = Result.Text & "." 
+End
+
+Public Sub ZERO_Click()
+  Result.Text = Result.Text & "0" 
+End
+
+Public Sub EQL_Click()
+  b = Val(Result.text)
+  If c = 1 Then
+    Result.Text = a + b
+  Else If c = 2 Then
+    Result.Text = a - b
+  Else If c = 3 Then
+    Result.Text = a * b
+  Else If c = 4 Then
+    Result.text = a / b
+  Else
+    Message.Error("INVALID")
+  Endif
+End
