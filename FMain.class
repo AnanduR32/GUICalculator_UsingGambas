@@ -60,7 +60,6 @@ Public Sub ADD_Click()
 End
 
 Public Sub MUL_Click()
-  Result.Text = Result.Text & "*" 
   c = 3
   a = Val(Result.Text)
   Result.Text = ""
